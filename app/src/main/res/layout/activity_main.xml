@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity" >
+    android:padding="30sp"
+    tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/imageView3"
@@ -55,7 +56,7 @@
         android:id="@+id/lblAcessorioSelecionado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nenhuma versão selecionada"
+        android:text="Nenhum acessório selecionado"
         android:textColor="@android:color/black"
         android:textSize="10sp" />
 
@@ -74,7 +75,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="4sp"
-        android:text="R$ 0,00"
+        android:text="TOTAL R$ 0,00"
         android:textColor="@android:color/holo_red_dark"
         android:textSize="24sp"
         android:textStyle="bold" />
