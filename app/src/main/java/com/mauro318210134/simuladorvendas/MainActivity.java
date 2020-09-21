@@ -16,8 +16,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         lblVersao = findViewById(R.id.lblVersao);
+        lblVersao.setOnClickListener(cliqueBotaoVersao);
+
         lblVersaoSelecionada = findViewById(R.id.lblVersaoSelecionada);
+        lblVersaoSelecionada.setOnClickListener(cliqueBotaoVersao);
+        
         lblTotalVersao = findViewById(R.id.lblTotalVersao);
+        lblTotalVersao.setOnClickListener(cliqueBotaoVersao);
+
         lblAcessorio = findViewById(R.id.lblAcessorio);
         lblAcessorioSelecionado = findViewById(R.id.lblAcessorioSelecionado);
         lblTotalAcessorio = findViewById(R.id.lblTotalAcessorio);
